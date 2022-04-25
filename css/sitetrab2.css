@@ -2,12 +2,11 @@
 body{
     background-color:white;
 }
+/*header*/
 header{
     height:165px;
     width:1840px;
-    border:3px solid black;
-    margin:5px;
-    background-color:yellow
+    background-image:url(../imgs/bannerbackground.jpg);
 }
 .header{
     margin-top:5px;
@@ -18,67 +17,112 @@ header{
 .logo{
     width:150px;
     height:150px;
+    margin-left:50px;
 }
 .banner{
-    width:1400px;
+    width:1425px;
     height:150px;
-    border:2px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
     text-align:center;
-    background-image:url(../imgs/bannerbackground.jpg);
     background-size:cover;
-    color:white;
+    color:rgb(244, 244, 244);
+    text-align:center;
+    font-size:100px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:15px 10px 5px rgb(207, 0, 0);
 }
 .store{
-    width:240px;
-    border:2px solid black;
+    width:180px;
+    padding-left:2px;
+    border:2px solid white;
+    border-radius:20px;
     margin:7px;
     font-size:20px;
+    text-align:left;
     float:left;
     background-color:white;
 }
+.store:hover{
+    border-radius:0px;
+    border-color:rgb(217, 217, 217);
+    background-color:rgb(217, 217, 217);
+}
+/*nav*/
 nav{
     width:1840px;
-    height:110px;
-    border:3px solid black;
-    margin:5px;
-    background-color:yellow;
+    height:125px;
+    background-image:url(../imgs/bannerbackground.jpg);
+    background-position:0px -165px;
 }
 nav li{
     width:345px;
     height:87px;
     padding:5px;
     border:1px solid black;
+    border-right:2px solid black;
+    border-bottom:4px solid black;
+    border-radius:20px;
     margin:5px;
+    margin-top:1px;
     float:left;
     list-style:none;
     background-color:white;
+    text-align:center;
 }
 nav li:hover{
+    border:1px solid rgba(0, 0, 0, 0);
+    border-right:2px solid rgba(0, 0, 0, 0);
+    border-bottom:4px solid rgba(0, 0, 0, 0);
     background-color:rgb(255, 163, 163);
 }
-nav ul div{
+.nvds1, .nvds2, .nvds3, .nvds4, .nvds5{
+    width:255px;
+    float:left;
+    margin-top:auto;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+}
+.nvds3, .nvds4{
+    margin-top:25px;
+}
+.nvic{
     margin:1px;
     float:right;
 }
+/*main*/
 main{
     width:1840px;
-    border:3px solid black;
-    margin:5px;
-    background-color:yellow;
+    background-image: linear-gradient(90deg, rgb(172, 172, 199), rgb(14, 31, 91));
 }
 /*page 1*/
 table{
-    width:1830px;
+    width:1840px;
     border:2px solid black;
-    margin:5px;
     background-color:rgb(162, 161, 161);
     text-align:center;
+    font-family: 'Fira Sans', sans-serif;
 }
 caption{
     border-top:2px solid black;
     border-right:2px solid black;
     border-left:2px solid black;
+    font-weight:900;
+}
+.cap1{
+    height:60px;
+    font-size:50px;
+    background-color:rgb(123, 123, 123);
+    text-shadow:5px 5px 5px rgb(213, 213, 213);
+}
+.cap2{
+    height:40px;
+    font-size:30px;
     background-color:rgb(162, 161, 161);
+}
+td{
+    font-size:20px;
+    background-image:linear-gradient(135deg, rgba(255, 0, 0, 0.732), rgba(255, 111, 0, 0.737))
 }
 .th{
     padding:5px;
@@ -101,7 +145,7 @@ caption{
     border:2px solid black;
 }
 .des{
-    width:1000px;
+    width:995px;
     padding:5px;
     border:2px solid black;
 }
@@ -130,35 +174,17 @@ fieldset{
     margin:5px;
     background-color:white;
 }
-footer{
-    width:1840px;
-    height:76px;
-    border:3px outset grey;
-    margin:5px;
-    background-color:yellow;
-}
-.footitem{
-    width:900px;
-    padding:3px;
-    border:1px dashed black;
-    margin:5px;
-    float:left;
-    background-color:white;
-    border-radius:5px;
-}
-.footitempt1{
-    margin-bottom:10px;
-}
 /*page 3*/
 .xbox, .ps, .ntd{
     padding:5px;
-    border:2px solid black;
-    margin:5px;
-    background-color:rgb(162, 161, 161);
+    background-color:white;
+    font-family: 'Play', sans-serif;
+    font-size:20px;
 }
 .xbdes, .psdes, .ntddes{
+    text-indent:50px;
     padding:5px;
-    border:1px solid black;
+    border:1px solid rgba(0, 0, 0, 0);
     margin:5px;
     background-color:white;
 }
@@ -170,9 +196,90 @@ main div h1{
 }
 .xbsx, .xbss, .ps5, .ntdsw{
     padding:5px;
-    border:1px solid black;
-    margin:5px;
+    border:1px solid rgba(0, 0, 0, 0);
     background-color:white;
+    text-align:right;
+}
+iframe{
+    margin-left:625px;
+    margin-right:500px;
+}
+.xbox iframe{
+    border:15px outset green;
+}
+.xbox h1{
+    text-align:center;
+    color:green;
+    background-color:black;
+}
+.xbox h2{
+    border:3px solid black;
+    margin:5px;
+    text-align:center;
+    color:green;
+    border-radius:25px;
+}
+.xbox h2:hover{
+    background-color:black;
+    color:white;
+}
+.xbox a:visited{
+    color:green;
+}
+.xbox a:visited{
+    color:rgb(0, 45, 0);
+}
+.ps iframe{
+    border:15px outset rgb(0, 72, 255);
+}
+.ps h1{
+    text-align:center;
+    color:rgb(0, 72, 255);
+    background-color:black;
+}
+.ps h2{
+    border:3px solid black;
+    margin:5px;
+    text-align:center;
+    color:rgb(0, 72, 255);
+    border-radius:25px;
+}
+.ps h2:hover{
+    background-color:black;
+    color:white;
+}
+.ps a:visited{
+    color:rgb(0, 72, 255);
+}
+.ps a:visited{
+    color:rgb(0, 21, 75);
+}
+.ntd iframe{
+    border:15px outset rgb(255, 0, 0);
+}
+.ntd h1{
+    border:1px solid rgb(0, 191, 255);
+    text-align:center;
+    color:rgb(200, 0, 0);
+    background-color:rgb(0, 191, 255);
+}
+.ntd h2{
+    border:3px solid rgb(0, 191, 255);
+    margin:5px;
+    text-align:center;
+    color:rgb(255, 0, 0);
+    border-radius:25px;
+}
+.ntd h2:hover{
+    border:3px solid rgb(139, 0, 0);
+    background-color:rgb(0, 191, 255);
+    color:black;
+}
+.ntd a:visited{
+    color:rgb(255, 0, 0);
+}
+.ntd a:visited{
+    color:rgb(108, 0, 0);
 }
 /*page 4*/
 .pg4txt{
@@ -219,11 +326,12 @@ ul li ul li{
 }
 .gal h1{
     font-size:50px;
-    margin:5px 5px 30px 5px;
-    color:rgb(83, 0, 0);
+    margin:0px 5px 30px 5px;
+    color:black;
+    text-shadow:5px 5px 10px white;
 }
-.act, .rac, .rpg, .sht, .fgt{
-    text-decoration:underline;
+.gal h2{
+    color:white;
 }
 .gal figure{
     padding:5px;
@@ -261,6 +369,33 @@ ul li ul li{
     border:3px solid rgb(157, 0, 0);
     border-left:20px solid rgb(157, 0, 0);
     border-right:20px solid rgb(157, 0, 0);
+}
+/*footer*/
+footer{
+    width:1840px;
+    height:170px;
+    background-image:url(../imgs/footerbackground.jpg);
+}
+.footitem{
+    width:900px;
+    height:50px;
+    padding:3px;
+    padding-bottom:15px;
+    border:1px solid black;
+    margin:5px;
+    float:left;
+    background-color:white;
+    border-radius:5px;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+}
+.footitem:hover{
+    border:1px solid rgba(0, 0, 0, 0);
+    border-radius:0px;
+    background-color:rgb(217, 217, 217);
+}
+.footitempt1{
+    margin-bottom:10px;
 }
 
 /*
