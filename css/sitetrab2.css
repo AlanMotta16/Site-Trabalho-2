@@ -83,7 +83,7 @@ nav li:hover{
     font-size:30px;
     font-family: 'Roboto', sans-serif;
 }
-.nvds3, .nvds4{
+.nvds4{
     margin-top:25px;
 }
 .nvic{
@@ -122,7 +122,7 @@ caption{
 }
 td{
     font-size:20px;
-    background-image:linear-gradient(135deg, rgba(255, 0, 0, 0.732), rgba(255, 111, 0, 0.737))
+    background-image:linear-gradient(135deg, rgba(255, 0, 0, 0.732), rgba(255, 111, 0, 0.737));
 }
 .th{
     padding:5px;
@@ -158,35 +158,70 @@ td{
 }
 /*page 2*/
 form{
-    border:2px solid black;
-    margin:5px;
-    background-color:rgb(162, 161, 161);
+    background-image:linear-gradient(90deg, white, rgb(162, 161, 161));
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    text-align:left;
 }
 .formdescr{
     padding:5px;
-    border:1px solid black;
-    margin:5px;
-    background-color:white;
+    border:1px solid rgba(0, 0, 0, 0);
+    margin:0px 5px 5px 5px;
+    text-indent:50px;
+    text-align:justify;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 0);
 }
 fieldset{
     padding:5px;
     border:1px solid black;
+    border-radius:20px 0px 0px 0px;
     margin:5px;
     background-color:white;
+    background-image:linear-gradient(315deg, rgba(255, 0, 0, 0.732), rgba(255, 111, 0, 0.737));
+}
+input{
+    padding:10px;
+    border:1px solid black;
+    margin:5px;
+}
+legend{
+    padding:0px 5px 0px 5px;
+    border-radius:10px;
+    margin-left:20px;
+    background-color:white;
+}
+.submit:hover{
+    background-color:rgb(255, 128, 128);
+    font-weight:bolder;
+}
+.psub{
+    font-weight:bold;
+}
+form fieldset p{
+    font-weight:bold;
 }
 /*page 3*/
 .xbox, .ps, .ntd{
     padding:5px;
-    background-color:white;
     font-family: 'Play', sans-serif;
     font-size:20px;
+}
+.xbox{
+    background-image:linear-gradient(135deg, white, green);
+}
+.ps{
+    background-image:linear-gradient(135deg, white, rgb(33, 96, 253));
+}
+.ntd{
+    background-image:linear-gradient(135deg, rgb(0, 191, 255), red);
 }
 .xbdes, .psdes, .ntddes{
     text-indent:50px;
     padding:5px;
     border:1px solid rgba(0, 0, 0, 0);
     margin:5px;
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0);
 }
 main div h1{
     border:1px solid black;
@@ -197,12 +232,11 @@ main div h1{
 .xbsx, .xbss, .ps5, .ntdsw{
     padding:5px;
     border:1px solid rgba(0, 0, 0, 0);
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0);
     text-align:right;
 }
 iframe{
-    margin-left:625px;
-    margin-right:500px;
+    margin-right:590px;
 }
 .xbox iframe{
     border:15px outset green;
@@ -215,6 +249,7 @@ iframe{
 .xbox h2{
     border:3px solid black;
     margin:5px;
+    background-color:white;
     text-align:center;
     color:green;
     border-radius:25px;
@@ -397,7 +432,3 @@ footer{
 .footitempt1{
     margin-bottom:10px;
 }
-
-/*
-*make full menu with subcategories
-*/
