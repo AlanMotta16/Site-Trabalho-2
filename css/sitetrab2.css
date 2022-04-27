@@ -93,7 +93,6 @@ nav li:hover{
 /*main*/
 main{
     width:1840px;
-    background-image: linear-gradient(90deg, rgb(172, 172, 199), rgb(14, 31, 91));
 }
 /*page 1*/
 table{
@@ -318,39 +317,72 @@ iframe{
 }
 /*page 4*/
 .pg4txt{
-    border:2px solid black;
-    margin:5px;
     background-color:rgb(162, 161, 161);
+    font-size:25px;
+    font-family: 'Raleway', sans-serif;
+    background-image:url(../imgs/vdgbackground.jpg);
 }
 .pg4tit{
-    border:2px solid black;
-    margin:5px;
-    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0);
+    border-radius:30px;
+    margin:0px 5px 5px 5px;
+    background-color:rgb(255, 255, 255);
+}
+.pg4tit:hover{
+    background-color:rgba(255, 255, 255, 0);
+    color:white;
+    text-shadow:10px 5px 5px grey;
 }
 .pg4des{
-    padding:5px;
-    border:2px solid black;
-    margin:5px;
-    background-color:white;
+    padding:10px;
+    border:2px solid rgba(0, 0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.828);
+    text-align:justify;
+}
+.pg4des p{
+    text-indent:25px;
 }
 .gamlst{
     padding:25px;
-    border:2px solid black;
-    margin:5px;
-    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0);
+}
+.gamlst p{
+    color:white;
+    font-size:50px;
+    text-shadow:10px 5px 5px grey;
+    text-align:center;
 }
 .list{
-    list-style:disc;
+    list-style:none;
+    text-align:center;
 }
 .xbex, .psex, .ntex, .mtpl{
-    padding:5px 5px 5px 20px;
-    border:1px solid black;
+    padding:5px 5px 5px 5px;
+    border:1px solid white;
     margin:5px;
+}
+.xbex{
+    background-image:linear-gradient(90deg, rgb(182, 255, 182), green);
+}
+.psex{
+    background-image:linear-gradient(90deg, rgb(211, 223, 254), rgb(1, 57, 197));
+}
+.ntex{
+    background-image:linear-gradient(90deg, rgb(89, 213, 255), red);
+}
+.mtpl{
+    background-image: linear-gradient(90deg, rgb(172, 172, 199), rgb(14, 31, 91));
 }
 ul li ul li{
     padding:5px;
     border:1px solid black;
+    border-radius:20px;
     margin:5px;
+    color:white;
+    text-align:center;
+    list-style:none;
+    background-image:url(../imgs/vdgbackground.jpg);
+    background-size:contain;
 }
 /*page 5*/
 .gal{
@@ -358,6 +390,7 @@ ul li ul li{
     text-align:center;
     font-family: 'Montserrat', sans-serif;
     font-size:13px;
+    background-image: linear-gradient(90deg, rgb(172, 172, 199), rgb(14, 31, 91));
 }
 .gal h1{
     font-size:50px;
